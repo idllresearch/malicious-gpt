@@ -158,6 +158,7 @@ def main():
     final_dict = mailResult(fog_dirname, oop_dirname, final_dict)
     summary_dict = summary(final_dict)
     for malla in summary_dict:
+        print(malla)
         print("Malicious code -> F: {:.2f}, C: {:.2f}, E: {:.2f} | "
               "Mail -> F: {:.2f}, R: {:.2f}, E: {:.2f} | "
               "Website -> F: {:.2f}, V: {:.2f}, E: {:.2f}\n-----".format(
