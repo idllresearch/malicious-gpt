@@ -56,11 +56,14 @@ The pretrained model is available [[Link](./author_classify_model-raw)].
 
 ## Result
 
-Using this model, we successfully identified the backend LLMs of  DarkGPT, EscapeGPT, and FreedomGPT:
+Using this model, we successfully identified the backend LLMs of  DarkGPT, EscapeGPT, and FreedomGPT. The identification results using the pretrained model are printed as:
 
-- DarkGPT -> Davinci-003
-- EscapeGPT -> GPT-3.5
-- FreedomGPT -> Luna AI Llama2 Uncensored
+```
+Identified Backend:
+Backends of DarkGPT -> Davinci_003 
+Backends of FreedomGPT -> Luna_AI_Llama2_Uncensored 
+Backends of EscapeGPT -> ChatGPT_3.5.
+```
 
 The classification results of three Malla services are aligned with the clues we found. For more details, please see [the paper](https://arxiv.org/abs/2401.03315).
 
