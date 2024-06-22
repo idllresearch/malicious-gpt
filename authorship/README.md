@@ -31,7 +31,9 @@ The test data are the QA pairs, triggered by the same malicious prompts, from Da
 
 We encode the QA pair's `response` into a 384-dimensional vector using [SBERT](https://sbert.net/docs/sentence_transformer/pretrained_models.html). Additionally, we extract and encode the Python code from the `response` into a separate 384-dimensional vector using [Code2Vec](https://github.com/Kirili4ik/code2vec). These two vectors will feed into the authorship attribution classifier, as the presentations of this `response`.
 
-The processed data is in the folder [`data`](./data).
+The processed data for the prediction is in the folder [`data`](./data).
+
+**The processed data for training is at [[link](https://drive.google.com/drive/folders/1ZhSL_6ze3tEfQ6QikoMil1zzwQgheWlx?usp=sharing)]. Please download `textvec.json` and `codevec.json` and put in the folder `data` before training or K-fold valiation.**
 
 ## Dependencies
 
