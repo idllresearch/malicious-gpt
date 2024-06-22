@@ -10,6 +10,16 @@
 
 
 
+**Note for Reviewers of Artifact Evaluation**: Use [requirements.txt](./requirements.txt) and the below commands for environment building. Thanks for your invaluable work :) 
+
+```shell
+conda create -n malla python=3.8
+conda activate malla
+pip install -r requirements.txt
+```
+
+
+
 ![](./WormGPT-profile.jpg)
 
 
