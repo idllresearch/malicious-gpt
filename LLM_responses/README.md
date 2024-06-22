@@ -1,4 +1,4 @@
-# ULLM-QA: A Large Prompt-response Data from 6 Uncensored LLMs
+# ULLM-QA: A Large Set of Prompt-response Data from Uncensored LLMs
 
 ## Introduction
 
