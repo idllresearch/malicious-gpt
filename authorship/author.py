@@ -134,7 +134,7 @@ def train(saved_model, epoch=2, batch_size=64, codevecfile=None, textvecfile=Non
                 y=y_matrix,
                 batch_size=batch_size,
                 epochs=epoch,
-                verbose=1,
+                verbose=0,
                 callbacks=None,
                 validation_split=0.1,
                 validation_data=None,
@@ -154,7 +154,7 @@ def train(saved_model, epoch=2, batch_size=64, codevecfile=None, textvecfile=Non
             x=[X_text_matrix, X_code_matrix],
             y=y_matrix,
             batch_size=batch_size,
-            verbose=2,
+            verbose=0,
             sample_weight=None,
             steps=None,
             callbacks=None,
@@ -274,16 +274,16 @@ def trainKFold(epoch=2, batch_size=64, codevecfile=None, textvecfile=None):
         del authorship_classifier
 
     print("5-Fold Validation Result:")
-    print("5-fold accuracies: {}".format(sum(accuracies)/len(accuracies)))
-    print("5-fold precisions: {}".format(sum(precisions) / len(precisions)))
-    print("5-fold recalls: {}".format(sum(recalls) / len(recalls)))
+    print("5-fold accuracies: {:.2f}".format(sum(accuracies)/len(accuracies)))
+    print("5-fold precisions: {:.2f}".format(sum(precisions) / len(precisions)))
+    print("5-fold recalls: {:.2f}".format(sum(recalls) / len(recalls)))
     return sum(precisions) / len(precisions), sum(recalls) / len(recalls)
 
 
 if __name__ == '__main__':
-    start_K_Fold_validation = False
+    start_K_Fold_validation = True
     start_authorship_identification = True
-    use_trained_model = True
+    use_pretrained_model = True
 
     # K-Fold validation
     if start_K_Fold_validation:
@@ -292,7 +292,7 @@ if __name__ == '__main__':
 
     # Train model and predict
     if start_authorship_identification:
-        if not use_trained_model:
+        if not use_pretrained_model:
             saved_model = "author_classify_model-retrain"
             train(saved_model, epoch=50, batch_size=32,
                   codevecfile="./data/codevec.json", textvecfile="./data/textvec.json")
