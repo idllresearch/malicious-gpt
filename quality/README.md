@@ -2,13 +2,24 @@
 
 ## Introduction 
 
-We triggered 9 malicious LLM application services 198  and malicious LLM application projects to generate malicious content, using 45 malicious prompts involving malicious code, phishing emails, and phishing websites. We totally got 1,107 prompt-response pairs from services and 26,730 prompt-response pairs from projects. Here this folder contains the intermediary checking results by various checkers. 
+We triggered 9 malicious LLM application services 198  and malicious LLM application projects to generate malicious content, using 45 malicious prompts involving malicious code, phishing emails, and phishing websites. We totally got 1,107 prompt-response pairs from services and 26,730 prompt-response pairs from projects. Here this folder contains the intermediary evaluation results by various checkers. 
 
 ## Code script  
 
 The scripts are used for integrating the results from various checkers, outputting the final summarized performance of malicious LLM applications.
 
-Dependency: NumPy
+*Dependency*: NumPy
+
+## Data
+
+The intermediary evaluation results on the services, Poe projects, and FlowGPT projects of malicious LLM applications are stored in the folders `services`, `poe`, and `flowgpt`, respectively.
+
+Each folder contains four subfolders, i.e., `codeSyn`, `codeDetection`, `mailFluency`, and `mailDetection`. 
+
+- `codeSyn` contains the evaluation results of malicious code and phishing website regarding format compliance and compilability/validation. 
+- `codeDetection` contains the evaluation results of malicious code and phishing website regarding evasiveness, in which the detection is conduct by VirusTotal. 
+- `mailFluency` contains the evaluation results of phishing mails regarding format compliance and readability. 
+- `mailDetection` contains the evaluation results of phishing mails regarding evasiveness, in which the detection is conduct by OOPSpam.
 
 ## Expected results
 
