@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is the collection of practical jailbreak prompts used by 200 real-world malicious LLM applications. The LLMs injected by these jailbreak prompts can serve for malicious services, including malicious code generation, phishing email drafting, phishing website creation, as detailed in [the research paper accepted by USENIX Security '24](https://arxiv.org/abs/2401.03315).
+This is the collection of practical jailbreak prompts used by 200 real-world malicious LLM applications. The LLMs injected by these jailbreak prompts can serve for malicious services, including malicious code generation, phishing email drafting, and phishing website creation, as detailed in [the research paper accepted by USENIX Security '24](https://arxiv.org/abs/2401.03315).
 
 ## Data
 
@@ -15,7 +15,7 @@ Malicious LLM applications on FlowGPT.com -> 72 [Link](./jailbreak-prompts-from-
 ## Citation
 
 
-If you find the above data and information are helpful for your research, please consider citing:
+If you find the above data and information helpful for your research, please consider citing:
 
 ```
 @inproceedings{lin2024malla,
