@@ -15,7 +15,9 @@ This is the collection of practical jailbreak prompts used by 200 real-world mal
 ## Data
 
 XXXGPT, CodeGPT, MakerGPT -> 3 [Link](./jailbreak-prompts-from-XXXGPT+CodeGPT+MakerGPT.json)
+
 Malicious LLM applications on Poe.com -> 125 [Link](./jailbreak-prompts-from-Poe.json)
+
 Malicious LLM applications on FlowGPT.com -> 72 [Link](./jailbreak-prompts-from-FlowGPT.json)
 
 ## Citation
