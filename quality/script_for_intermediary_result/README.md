@@ -81,10 +81,14 @@ clang
 
 - Note: 
 
-When running *./C++/scanner.py*, you might meet the [issue with Clang](https://stackoverflow.com/questions/22730935/why-cant-this-python-script-find-the-libclang-dll).  In order to run *./C++/scanner.py*, it is necessary to install Clang on Windows. Here is the [installation method](https://www.wikihow.com/Install-Clang-on-Windows).
+When running *./C++/scanner.py*, you might meet the [issue with Clang](https://stackoverflow.com/questions/22730935/why-cant-this-python-script-find-the-libclang-dll).  In order to run *./C++/scanner.py*, it is necessary to install Clang on Windows. Here is the [Clang installation method](https://www.wikihow.com/Install-Clang-on-Windows).
 
-## Advantage to use intermediary evaluation results 
+## Advantages of Using Intermediary Evaluation Results
 
-1. The running Operating System is not limited to Windows. It is because, to analyze the compilability of the malicious C++ code targeting Windows, the checking code should be run on Windows. The intermediary evaluation results provide the result of checking the compilability of  malicious C++ code targeting Windows.
-2. Intermediary evaluation results help users save time and money in obtaining the final quality evaluation results. To get the intermediary evaluation results, the users need the APIs of VirusTotal and OOPSpam, which have very strict query limits. Intermediary evaluation results provide the running results using these APIs.
-3. Intermediary evaluation results possess a clear data structure.
+1. **Operating System Flexibility**: The running operating system is not limited to Windows, using intermediary evaluation results. To analyze the compilability of malicious C++ code targeting Windows, the checking code should be run on Windows. Intermediary evaluation results provide the outcome of checking the compilability of such malicious C++ code.
+
+2. **Time and Cost Efficiency**: Intermediary evaluation results help users save time and money in obtaining the final quality evaluation results. To get the intermediary evaluation results, users need APIs from VirusTotal and OOPSpam, which have very strict query limits. Intermediary evaluation results provide the execution results using these APIs.
+
+3. **Clear Data Structure**: Intermediary evaluation results possess a clear data structure.
+
+Therefore, to save your time and money, we strongly recommend using intermediary evaluation results!
