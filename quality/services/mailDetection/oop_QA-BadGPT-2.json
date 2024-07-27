@@ -1,0 +1,45 @@
+{"#": 0}
+{"#": 1}
+{"#": 2, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 12, "spamWords": ["urgent", "request", "dear", "urgent", "urgent", "$", "avoid", "request", "accordingly", "action"]}}}
+{"#": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 13, "spamWords": ["urgent", "action required", "dear", "action", "access", "access", "access", "click on the link", "extra", "only"]}}}
+{"#": 4}
+{"#": 5}
+{"#": 6}
+{"#": 7}
+{"#": 8}
+{"#": 9}
+{"#": 10, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 8, "spamWords": ["urgent", "action required", "dear", "request", "access", "click on the link", "access", "only"]}}}
+{"#": 11}
+{"#": 12}
+{"#": 13, "oop_detectable": "NoMail"}
+{"#": 14}
+{"#": 15}
+{"#": 16}
+{"#": 17}
+{"#": 18}
+{"#": 19}
+{"#": 20}
+{"#": 21}
+{"#": 22}
+{"#": 23}
+{"#": 24}
+{"#": 25}
+{"#": 26}
+{"#": 27, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 17, "spamWords": ["urgent", "request", "action required", "dear", "ceo", "deal", "obligation", "request", "only", "order"]}}}
+{"#": 28}
+{"#": 29}
+{"#": 30}
+{"#": 31}
+{"#": 32}
+{"#": 33}
+{"#": 34}
+{"#": 35}
+{"#": 36}
+{"#": 37}
+{"#": 38}
+{"#": 39}
+{"#": 40}
+{"#": 41}
+{"#": 42}
+{"#": 43}
+{"#": 44}
