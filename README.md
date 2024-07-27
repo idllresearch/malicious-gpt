@@ -3,37 +3,36 @@
 
 ## Directory  
 
-- Major Claim 1: Quality evaluation of Malla-generated Content
+- Environments
+- Major Claim 1: [Quality evaluation of Malla-generated Content](./quality)
+  - Execution
 
-	- Execution
-	
-		- Step 1. Exam performance for each metric
-		
-		- Step 2. Summarize the results of each metric
-	
-	- Dataset
-	
-	- Result
-	
-- Major Claim 2: Authorship attribution classification
+  	- Step 1. Exam performance for each metric
+  	
+  	- Step 2. Summarize the results of each metric
 
-	- Execution
-	
-	- Dataset
-	
-	- Result
-	
-- Major Claim 3: Evaluation on “ignore the above instructions” prompt leaking attack
+  - Dataset
 
-	- Execution
-	
-	- Dataset
-	
-	- Result
-	
+  - Result
+- Major Claim 2: [Authorship attribution classification](./authorship)
+
+  - Execution
+
+  - Dataset
+
+  - Result
+- Major Claim 3: [Evaluation on "ignore the above instructions" prompt leaking attack](./jailbreak_prompt_uncovering)
+
+  - Execution
+
+  - Dataset
+
+  - Result
 - Other Claims
-	
-
+  - [malPrompt](https://github.com/idllresearch/malicious-gpt/tree/main/mal_prompts)
+  - [MallaResponse](https://github.com/idllresearch/malicious-gpt/tree/main/malicious_LLM_responses)
+  - [MallaJailbreak](https://github.com/idllresearch/malicious-gpt/tree/main/jailbreak)
+  - [ULLM-QA](https://github.com/idllresearch/malicious-gpt/tree/main/LLM_responses)
 
 
 ## Environments
