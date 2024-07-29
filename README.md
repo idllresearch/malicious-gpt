@@ -34,7 +34,6 @@
   - [MallaJailbreak](https://github.com/idllresearch/malicious-gpt/tree/main/jailbreak)
   - [ULLM-QA](https://github.com/idllresearch/malicious-gpt/tree/main/LLM_responses)
 
-
 ## Environments
 
 Use [requirements.txt](./requirements.txt) and the below commands for environment building.
@@ -53,9 +52,11 @@ pip install -r requirements.txt
 
 ### Execution
 
-Use the Malla **service** as an example. To evaluate the Malla in **poe** and **flowgpt**, follow the same procedure.
+Code is stored at the ["quality"](https://github.com/idllresearch/malicious-gpt/tree/main/quality) folder.
 
-### *Step 1. Exam performance for each metric*
+Here, use the Malla **service** as an example. To evaluate the Malla in **poe** and **flowgpt**, follow the same procedure.
+
+#### *Step 1. Exam performance for each metric*
 
 **Step 1.1: Code format compliance (F), compilability (C), validity (V)**
 
@@ -114,7 +115,7 @@ cd /home/malicious-gpt/quality/services/OOPSpamDetect
 python scanner.py
 ```
 
-### *Step 2: Summarize the checking results for each metric*
+#### *Step 2: Summarize the checking results for each metric*
 
 Run the following script:
 
@@ -212,6 +213,7 @@ F: 0.24+-0.27, V: 0.19+-0.24, E: 0.19+-0.24
 
 ### Execution
 
+Code is stored at the ["authorship"](https://github.com/idllresearch/malicious-gpt/tree/main/authorship) folder.
 
 Run the following script:
 
@@ -247,6 +249,7 @@ Backends of EscapeGPT -> ChatGPT_3.5.
 
 ### Execution
 
+Code is stored at the ["jailbreak_prompt_uncovering"](https://github.com/idllresearch/malicious-gpt/tree/main/jailbreak_prompt_uncovering) folder.
 
 Run the following script:
 
