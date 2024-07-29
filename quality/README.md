@@ -4,7 +4,7 @@ Claim: ``` The results of the quality assessment on Malla generated content acro
 
 ## Execution
 
-Use the Malla **service** as an example. To evaluate the Malla in **poe** and **flowgpt**, follow the same procedure.
+Use the Malla **service** as an example. To evaluate the Malla in **poe** and **flowgpt**, follow the same procedure (for the procedures, see [More Guide](https://github.com/idllresearch/malicious-gpt/blob/main/quality/MoreGuide.md)).
 
 ### *Step 1. Exam performance for each metric*
 
