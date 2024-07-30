@@ -36,7 +36,7 @@ python sumCompilable.py
 
 **Step 1.2: Code evasiveness (E)**
 
-- Check code of Python, C/C++, and HTML on evasiveness against the virus detector (VirusTotal). Generate files in the **codeDetection** folder.
+- Check code of Python, C/C++, and HTML on evasiveness against the virus detector (VirusTotal). Generate files in the **codeDetection** folder. Before running the code, please add your VirusTotal API in **VTscanner.py**.
 
 ```shell
 cd /home/malicious-gpt/quality/poe/VirusTotalDetect
@@ -54,7 +54,7 @@ python fluency_scanner.py
 
 **Step 1.4: Email evasiveness (E)**
 
-- Check emails on evasiveness against the phishing detector (OOPSpam). Generate files in the **mailDetection** folder
+- Check emails on evasiveness against the phishing detector (OOPSpam). Generate files in the **mailDetection** folder. Before running the code, please add your OOPSpam API in **oopspam_detect.py**.
 
 ```shell
 cd /home/malicious-gpt/quality/poe/OOPSpamDetect
@@ -108,7 +108,7 @@ python sumCompilable.py
 
 **Step 1.2: Code evasiveness (E)**
 
-- Check code of Python, C/C++, and HTML on evasiveness against the virus detector (VirusTotal). Generate files in the **codeDetection** folder.
+- Check code of Python, C/C++, and HTML on evasiveness against the virus detector (VirusTotal). Generate files in the **codeDetection** folder. Before running the code, please add your VirusTotal API in **VTscanner.py**.
 
 ```shell
 cd /home/malicious-gpt/quality/flowgpt/VirusTotalDetect
@@ -126,7 +126,7 @@ python fluency_scanner.py
 
 **Step 1.4: Email evasiveness (E)**
 
-- Check emails on evasiveness against the phishing detector (OOPSpam). Generate files in the **mailDetection** folder
+- Check emails on evasiveness against the phishing detector (OOPSpam). Generate files in the **mailDetection** folder. Before running the code, please add your OOPSpam API in **oopspam_detect.py**.
 
 ```shell
 cd /home/malicious-gpt/quality/flowgpt/OOPSpamDetect
