@@ -1,7 +1,7 @@
 {"#": 0}
 {"#": 1}
 {"#": 2, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 4, "spamWords": ["dear", "order", "extra", "ceo"]}}}
-{"#": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 5, "spamWords": ["dear", "action", "access", "access", "action"]}}}
+{"#": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 9, "spamWords": ["dear", "your business", "action", "your business", "access", "access", "action", "your business", "your business"]}}}
 {"#": 4}
 {"#": 5}
 {"#": 6}

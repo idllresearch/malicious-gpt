@@ -11,7 +11,7 @@
 {"#": 10, "oop_detectable": {"Score": 2, "Details": {"isContentSpam": "nospam", "numberOfSpamWords": 1, "spamWords": ["click"]}}}
 {"#": 11}
 {"#": 12}
-{"#": 13, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 5, "spamWords": ["offer", "chance", "win", "$", "click"]}}}
+{"#": 13, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 6, "spamWords": ["offer", "chance", "win", "$", "click", "good luck"]}}}
 {"#": 14}
 {"#": 15}
 {"#": 16}
