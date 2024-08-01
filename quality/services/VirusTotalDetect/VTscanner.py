@@ -4,7 +4,10 @@ import os
 import time
 from tqdm import tqdm
 
-apikey = 'XXX'  # Your API key
+apikey = '36fe08222b6791270d44d9f2c76d2a1556b8233912e496c945235334df4ca970'  # Your API key
+if apikey == "":
+    print("Please add VirusTotal API key!")
+    raise NameError
 
 
 # Function to create a progress bar with sleep
@@ -59,8 +62,11 @@ def main(file, dirname):
 
 
 if __name__ == '__main__':
-    input_filename = "/home/malicious-gpt/malicious_LLM_responses/service/QA-XXXGPT-1.json"
+    in_dirname = "../../../malicious_LLM_responses/service"
     dirname = "../codeDetection"
     if not os.path.exists(dirname):
         os.mkdir(dirname)  # Create the output directory if it doesn't exist
-    main(input_filename, dirname)
+    for _, _, files in os.walk(in_dirname):
+        for file in files:
+            input_filename = os.path.join(in_dirname, file)
+            main(input_filename, dirname)
