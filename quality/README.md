@@ -10,67 +10,103 @@ Use the Malla **service** as an example. To evaluate the Malla in **poe** and **
 
 **Step 1.1: Code format compliance (F), compilability (C), validity (V)**
 
-- Check Python code on format compliance and compilability.
+- Check Python code on format compliance and compilability. 
+  - Input: the folder `malicious_LLM_responses/service` with 25 raw data files.
+  - Output: the folder `quality/services/Python/results` , which stores 25 output files whose names are in the format of `synPython_QA-XXX-X.json` (e.g., `synPython_QA-BadGPT-1.json`).
+
 
 ```shell
-cd /home/malicious-gpt/quality/services/Python
+cd ./malicious-gpt/quality/services/Python
 python scanner.py
 ```
 
 - Check C/C++ code on format compliance and compilability.
+  - Input: the folder `malicious_LLM_responses/service`.
+  - Output: the folder `quality/services/C++/results` , which stores 25 output files whose names are in the format of `synC++_QA-XXX-X.json` (e.g., `synC++_QA-BadGPT-1.json`).
 
 ```shell
-cd /home/malicious-gpt/quality/services/C++
+cd ./malicious-gpt/quality/services/C++
 python scanner.py
 ```
 
 - Check HTML code and pages on format compliance and validity. The generated web pages are stored at the *services/HTML/html-results* folder.
+  - Input: the folder `malicious_LLM_responses/service`.
+  - Output: the folder `quality/services/HTML/results` , which stores  25 output files whose names are in the format of `synHTML_QA-XXX-X.json` (e.g., `synHTML_QA-BadGPT-1.json`).
+  - Note: The running might be interrupted with error. It is due to too frequent requests to the API. Please wait for a while and re-run the script.
+
 
 ```shell
-cd /home/malicious-gpt/quality/services/HTML
+cd ./malicious-gpt/quality/services/HTML
 python scanner.py
 ```
 
-- Summarize above results as files in the **CodeSyn** folder
+- **Summarize above results** as files in the **CodeSyn** folder.
+  - Input: the folders (`quality/services/Python/results`, `quality/services/C++/results`, `quality/services/HTML/results`).
+  - Output: the folder `quality/services/CodeSyn` , which stores  25 output files whose names are in the format of `synFinal_QA-XXX-X.json` (e.g., `synFinal_QA-BadGPT-1.json`).
+
 
 ```shell
-cd /home/malicious-gpt/quality/services/
+cd ./malicious-gpt/quality/services/
 python sumCompilable.py
 ```
 
 **Step 1.2: Code evasiveness (E)**
 
-- Check code of Python, C/C++, and HTML on evasiveness against the virus detector (VirusTotal). Generate files in the **codeDetection** folder. Before running the code, please add your VirusTotal API in **VTscanner.py**.
+- Check code of Python, C/C++, and HTML on evasiveness against the virus detector (VirusTotal). Generate files in the **codeDetection** folder. 
+
+  - Input: the folder `malicious_LLM_responses/service`.
+
+  - Output: the folder `quality/services/codeDetection` , which stores  25 output files whose names are in the format of `VT_QA-XXX-X.json` (e.g., `VT_QA-BadGPT-1.json`).
+
+  - Note: Before running the code, please add your VirusTotal API in **VTscanner.py**. VirusTotal API is free but has a query frequency limit. We provide VirusTotal APIs but we do not guarantee that they are alive. 
+
+    - dbd288d2f3dd1f1dec3b3b1462e8f8598e9ad74fa92b86d47848488d607371bc
+    - a23e2c605b96dfd600217c04d25650e3680ac6ab82201c1e88279637877eaeac
+    - 36fe08222b6791270d44d9f2c76d2a1556b8233912e496c945235334df4ca970
+
+    The running might be interrupted with error. It is due to too frequent requests to the API. Please wait for a while and re-run the script.
+
 
 ```shell
-cd /home/malicious-gpt/quality/services/VirusTotalDetect
+cd ./malicious-gpt/quality/services/VirusTotalDetect
 python VTscanner.py
 ```
 
 **Step 1.3: Email format compliance (F) and readability (R)**
 
-- Check emails on format compliance and readability. Generate files in the **mailFluency** folder.
+- Check emails on format compliance and readability. Generate files in the **mailFluency** folder. 
+  - Environment note: Please make sure that the Python has installed the package `textstat` with a version of `0.7.3`.
+  - Input: the folder `malicious_LLM_responses/service`.
+  - Output: the folder `quality/services/mailFluency` , which stores 25 output files whose names are in the format of `fogemail_QA-XXX-X.json` (e.g., `fogemail_QA-BadGPT-1.json`).
+
 
 ```shell
-cd /home/malicious-gpt/quality/services/fluency
+cd ./malicious-gpt/quality/services/fluency
 python fluency_scanner.py
 ```
 
 **Step 1.4: Email evasiveness (E)**
 
-- Check emails on evasiveness against the phishing detector (OOPSpam). Generate files in the **mailDetection** folder. Before running the code, please add your OOPSpam API in **oopspam_detect.py**.
+- Check emails on evasiveness against the phishing detector (OOPSpam). Generate files in the **mailDetection** folder. 
+  - Input: the folder `malicious_LLM_responses/service`.
+  - Output: the folder `quality/services/mailDetection` , which stores 25 output files whose names are in the format of `oop_QA-XXX-X.json` (e.g., `oop_QA-BadGPT-1.json`).
+  - Note: Before running the code, please add your OOPSpam API in **oopspam_detect.py**. OOPSpam API is **not free**.  
+
 
 ```shell
-cd /home/malicious-gpt/quality/services/OOPSpamDetect
+cd ./malicious-gpt/quality/services/OOPSpamDetect
 python scanner.py
 ```
 
 ### *Step 2: Summarize the checking results for each metric*
 
-Run the following script:
+Please run the following script to obtain the summarized results.
+
+- Input: the folders `quality/services/CodeSyn`,  `quality/services/codeDetection`, `quality/services/mailFluency`, and `quality/services/mailDetection`.
+- Return: the final summarized results.
 
 ```shell
-cd /home/malicious-gpt/quality/services
+cd ./malicious-gpt/quality/services
 python services_quality_evaluation.py
 ```
 
@@ -83,7 +119,7 @@ python services_quality_evaluation.py
 - Python package:
 
 ```
-textstat
+textstat==0.7.3
 tqdm
 clang
 ```
@@ -111,7 +147,7 @@ We also provided the results of Step 1 (we call the intermediary result) at:
 
 - For FlowGPT's Malla project evaluation: https://github.com/idllresearch/malicious-gpt/tree/main/quality/flowgpt
 
-## Folder structure
+## Folder structure and introduction
 
 - `C` contains the script for evaluating the format compliance and compilability of malicious code of C language.
 - `Python` contains the script for evaluating the format compliance and compilability of malicious code of Python.
@@ -121,10 +157,10 @@ We also provided the results of Step 1 (we call the intermediary result) at:
 - `fluency` contains the script for evaluating the format compliance and readability of phishing emails.
 - `OOPSpamDetect` contains the script for evaluating the evasiveness of malicious code and phishing emails.
 - `services_quality_evaluation.py` is the script for summarizing all the results of malicious code, phishing webpages, and phishing emails.
-- `codeSyn` contains the evaluation results of malicious code and phishing website regarding format compliance and compilability/validation. 
-- `codeDetection` contains the evaluation results of malicious code and phishing website regarding evasiveness, in which the detection is conduct by VirusTotal. 
-- `mailFluency` contains the evaluation results of phishing mails regarding format compliance and readability. 
-- `mailDetection` contains the evaluation results of phishing mails regarding evasiveness, in which the detection is conduct by OOPSpam.
+- `codeSyn` contains the evaluation results of malicious code and phishing website regarding format compliance and compilability/validation. It is summarized by `sumCompilable.py` based on the `results` folders in the folders `C`, `Python`, and `HTML`. 
+- `codeDetection` contains the evaluation results of malicious code and phishing website regarding evasiveness, in which the detection is conduct by VirusTotal. It is generated by the script in the `VirusTotalDetect` folder.
+- `mailFluency` contains the evaluation results of phishing mails regarding format compliance and readability. It is generated by the script in the `fluency` folder.
+- `mailDetection` contains the evaluation results of phishing mails regarding evasiveness, in which the detection is conduct by OOPSpam. It is generated by the script in the `OOPSpamDetect` folder.
 
 ## Result
 
@@ -171,7 +207,7 @@ Quality of content generated by Mallas on Poe.com
 Malicious code:
 F: 0.37+-0.26, C: 0.25+-0.18, E: 0.24+-0.16
 Email:
-F: 0.44+-0.29, R: 0.21+-0.21, E: 0.05+-0.08
+F: 0.44+-0.29, R: 0.21+-0.20, E: 0.05+-0.08
 Web:
 F: 0.32+-0.22, V: 0.21+-0.19, E: 0.21+-0.19
 ```
