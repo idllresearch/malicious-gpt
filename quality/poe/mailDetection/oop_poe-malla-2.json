@@ -451,7 +451,7 @@
 {"bot_name": "BingleBard", "count": 450, "queryID": 0}
 {"bot_name": "BingleBard", "count": 451, "queryID": 1}
 {"bot_name": "BingleBard", "count": 452, "queryID": 2, "oop_detectable": "NoMail"}
-{"bot_name": "BingleBard", "count": 453, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 12, "spamWords": ["urgent", "action required", "now", "dear", "writing", "order", "request", "access", "click", "access"]}}}
+{"bot_name": "BingleBard", "count": 453, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 13, "spamWords": ["urgent", "action required", "now", "dear", "writing", "your business", "order", "request", "access", "click"]}}}
 {"bot_name": "BingleBard", "count": 454, "queryID": 4}
 {"bot_name": "BingleBard", "count": 455, "queryID": 5}
 {"bot_name": "BingleBard", "count": 456, "queryID": 6}
@@ -1088,7 +1088,7 @@
 {"bot_name": "BotMB1GUcluadee", "count": 1087, "queryID": 7}
 {"bot_name": "BotMB1GUcluadee", "count": 1088, "queryID": 8}
 {"bot_name": "BotMB1GUcluadee", "count": 1089, "queryID": 9}
-{"bot_name": "BotMB1GUcluadee", "count": 1090, "queryID": 10, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 7, "spamWords": ["order", "order", "writing", "order status", "order", "credit", "click here"]}}}
+{"bot_name": "BotMB1GUcluadee", "count": 1090, "queryID": 10, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 8, "spamWords": ["order", "order", "writing", "order status", "order", "credit", "your business", "click here"]}}}
 {"bot_name": "BotMB1GUcluadee", "count": 1091, "queryID": 11}
 {"bot_name": "BotMB1GUcluadee", "count": 1092, "queryID": 12}
 {"bot_name": "BotMB1GUcluadee", "count": 1093, "queryID": 13, "oop_detectable": "NoMail"}
@@ -1261,7 +1261,7 @@
 {"bot_name": "BotPJOW76HL10", "count": 1260, "queryID": 0}
 {"bot_name": "BotPJOW76HL10", "count": 1261, "queryID": 1}
 {"bot_name": "BotPJOW76HL10", "count": 1262, "queryID": 2, "oop_detectable": "NoMail"}
-{"bot_name": "BotPJOW76HL10", "count": 1263, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 16, "spamWords": ["urgent", "dear", "opportunity", "investment", "opportunity", "access", "legal", "hidden", "invest", "investment"]}}}
+{"bot_name": "BotPJOW76HL10", "count": 1263, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 17, "spamWords": ["urgent", "dear", "opportunity", "investment", "opportunity", "access", "legal", "hidden", "invest", "investment"]}}}
 {"bot_name": "BotPJOW76HL10", "count": 1264, "queryID": 4}
 {"bot_name": "BotPJOW76HL10", "count": 1265, "queryID": 5}
 {"bot_name": "BotPJOW76HL10", "count": 1266, "queryID": 6}
@@ -2528,7 +2528,7 @@
 {"bot_name": "EvilGPTofMe", "count": 2527, "queryID": 7}
 {"bot_name": "EvilGPTofMe", "count": 2528, "queryID": 8}
 {"bot_name": "EvilGPTofMe", "count": 2529, "queryID": 9}
-{"bot_name": "EvilGPTofMe", "count": 2530, "queryID": 10, "oop_detectable": {"Score": 4, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 12, "spamWords": ["urgent", "action required", "now", "dear", "request", "click", "access", "here", "phone", "credit"]}}}
+{"bot_name": "EvilGPTofMe", "count": 2530, "queryID": 10, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 12, "spamWords": ["urgent", "action required", "now", "dear", "request", "click", "access", "here", "phone", "credit"]}}}
 {"bot_name": "EvilGPTofMe", "count": 2531, "queryID": 11}
 {"bot_name": "EvilGPTofMe", "count": 2532, "queryID": 12}
 {"bot_name": "EvilGPTofMe", "count": 2533, "queryID": 13, "oop_detectable": "NoMail"}
@@ -3068,7 +3068,7 @@
 {"bot_name": "Hackerking", "count": 3067, "queryID": 7}
 {"bot_name": "Hackerking", "count": 3068, "queryID": 8}
 {"bot_name": "Hackerking", "count": 3069, "queryID": 9}
-{"bot_name": "Hackerking", "count": 3070, "queryID": 10, "oop_detectable": {"Score": 6, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 0}}}
+{"bot_name": "Hackerking", "count": 3070, "queryID": 10, "oop_detectable": {"Score": 6, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 11, "spamWords": ["offer", "dear", "urgent", "offer", "limited time only", "opportunity", "guaranteed", "leave", "lifetime", "offer", "exhilarating"]}}}
 {"bot_name": "Hackerking", "count": 3071, "queryID": 11}
 {"bot_name": "Hackerking", "count": 3072, "queryID": 12}
 {"bot_name": "Hackerking", "count": 3073, "queryID": 13, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 8, "spamWords": ["spam", "urgent", "dear", "click", "act now", "access", "click", "now"]}}}
@@ -3826,7 +3826,7 @@
 {"bot_name": "ModeBotTWo615", "count": 3825, "queryID": 0}
 {"bot_name": "ModeBotTWo615", "count": 3826, "queryID": 1}
 {"bot_name": "ModeBotTWo615", "count": 3827, "queryID": 2, "oop_detectable": "NoMail"}
-{"bot_name": "ModeBotTWo615", "count": 3828, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 10, "spamWords": ["urgent", "dear", "writing", "access", "order", "request", "click", "access", "phone", "avoid"]}}}
+{"bot_name": "ModeBotTWo615", "count": 3828, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 17, "spamWords": ["urgent", "your business", "dear", "writing", "your business", "access", "order", "your business", "request", "click"]}}}
 {"bot_name": "ModeBotTWo615", "count": 3829, "queryID": 4}
 {"bot_name": "ModeBotTWo615", "count": 3830, "queryID": 5}
 {"bot_name": "ModeBotTWo615", "count": 3831, "queryID": 6}
@@ -4591,7 +4591,7 @@
 {"bot_name": "WormgptV2", "count": 4590, "queryID": 0}
 {"bot_name": "WormgptV2", "count": 4591, "queryID": 1}
 {"bot_name": "WormgptV2", "count": 4592, "queryID": 2, "oop_detectable": "NoMail"}
-{"bot_name": "WormgptV2", "count": 4593, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 8, "spamWords": ["urgent", "dear", "urgent", "here", "click on the link", "access", "avoid", "phone"]}}}
+{"bot_name": "WormgptV2", "count": 4593, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 10, "spamWords": ["urgent", "dear", "urgent", "your business", "here", "click on the link", "access", "avoid", "phone", "your business"]}}}
 {"bot_name": "WormgptV2", "count": 4594, "queryID": 4}
 {"bot_name": "WormgptV2", "count": 4595, "queryID": 5}
 {"bot_name": "WormgptV2", "count": 4596, "queryID": 6}
@@ -4681,7 +4681,7 @@
 {"bot_name": "exploitbot", "count": 4680, "queryID": 0}
 {"bot_name": "exploitbot", "count": 4681, "queryID": 1}
 {"bot_name": "exploitbot", "count": 4682, "queryID": 2, "oop_detectable": "NoMail"}
-{"bot_name": "exploitbot", "count": 4683, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 12, "spamWords": ["urgent", "action required", "dear", "order", "access", "request", "here", "only", "offer", "access"]}}}
+{"bot_name": "exploitbot", "count": 4683, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 16, "spamWords": ["urgent", "action required", "dear", "your business", "order", "access", "request", "here", "only", "offer"]}}}
 {"bot_name": "exploitbot", "count": 4684, "queryID": 4}
 {"bot_name": "exploitbot", "count": 4685, "queryID": 5}
 {"bot_name": "exploitbot", "count": 4686, "queryID": 6}
@@ -5311,7 +5311,7 @@
 {"bot_name": "BotR6EQZ01M5Y", "count": 5310, "queryID": 0}
 {"bot_name": "BotR6EQZ01M5Y", "count": 5311, "queryID": 1}
 {"bot_name": "BotR6EQZ01M5Y", "count": 5312, "queryID": 2, "oop_detectable": "NoMail"}
-{"bot_name": "BotR6EQZ01M5Y", "count": 5313, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 6, "spamWords": ["urgent", "order", "problem", "billing", "here", "billing"]}}}
+{"bot_name": "BotR6EQZ01M5Y", "count": 5313, "queryID": 3, "oop_detectable": {"Score": 3, "Details": {"isContentSpam": "spam", "numberOfSpamWords": 7, "spamWords": ["urgent", "order", "problem", "billing", "here", "your business", "billing"]}}}
 {"bot_name": "BotR6EQZ01M5Y", "count": 5314, "queryID": 4}
 {"bot_name": "BotR6EQZ01M5Y", "count": 5315, "queryID": 5}
 {"bot_name": "BotR6EQZ01M5Y", "count": 5316, "queryID": 6}
