@@ -67,8 +67,11 @@ def main(file, dirname):
 
 
 if __name__ == '__main__':
-    input_filename = "/home/malicious-gpt/malicious_LLM_responses/FlowGPT/QA-FlowGPT-1.json"
+    in_dirname = "../../../malicious_LLM_responses/FlowGPT"
     dirname = "../mailFluency/"
     if not os.path.exists(dirname):
         os.mkdir(dirname)
-    main(input_filename, dirname)
+    for _, _, files in os.walk(in_dirname):
+        for file in files:
+            input_filename = os.path.join(in_dirname, file)
+            main(input_filename, dirname)
