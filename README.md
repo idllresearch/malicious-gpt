@@ -11,7 +11,7 @@
   	
   	- Step 2. Summarize the results of each metric
 	
-  - Subfolder (`quality/services`) structure and introduction
+  - Structure and introduction of subfolders in `quality/services`
 
   - Dataset
 
@@ -162,7 +162,7 @@ cd ./malicious-gpt/quality/services
 python services_quality_evaluation.py
 ```
 
-### Subfolder (`quality/services`) structure and introduction
+### Structure and introduction of subfolders in `quality/services`
 
 - `C` contains the script for evaluating the format compliance and compilability of malicious code of C language and the evaluation result files.
 - `Python` contains the script for evaluating the format compliance and compilability of malicious code of Python and the evaluation result files.
