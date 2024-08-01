@@ -147,11 +147,11 @@ We also provided the results of Step 1 (we call the intermediary result) at:
 
 - For FlowGPT's Malla project evaluation: https://github.com/idllresearch/malicious-gpt/tree/main/quality/flowgpt
 
-## Folder structure and introduction
+## Subfolder (`quality/services`) structure and introduction
 
-- `C` contains the script for evaluating the format compliance and compilability of malicious code of C language.
-- `Python` contains the script for evaluating the format compliance and compilability of malicious code of Python.
-- `HTML` contains the script for evaluating the format compliance and validation of phishing webpages.
+- `C` contains the script for evaluating the format compliance and compilability of malicious code of C language and the evaluation result files.
+- `Python` contains the script for evaluating the format compliance and compilability of malicious code of Python and the evaluation result files.
+- `HTML` contains the script for evaluating the format compliance and validation of phishing webpages and the evaluation result files.
 - `sumCompilable.py` is the script for summarizing the results on format compliance and compilability/validation of malicious code and phishing webpages.
 - `VirusTotalDetect` contains the script for evaluating the evasiveness of malicious code and phishing webpages.
 - `fluency` contains the script for evaluating the format compliance and readability of phishing emails.
