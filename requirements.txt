@@ -4,6 +4,6 @@ sentence-transformers==0.4.1.2
 scikit-learn==0.23.2
 tensorflow==2.5.0
 typing-extensions==4.3.0
-textstat==0.7.2
+textstat==0.7.3
 tqdm
 clang
