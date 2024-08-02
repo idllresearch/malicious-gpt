@@ -7,3 +7,4 @@ typing-extensions==4.3.0
 textstat==0.7.3
 tqdm
 clang
+requests
