@@ -11,8 +11,13 @@ def validate_html(html_content):
     
     # The API returns the results in a structured format, so you can process them as needed
     # Here, we're just printing the response for demonstration
-    print(response)
-    json_response = response.json()
+    try:
+        json_response = response.json()
+    except requests.exceptions.JSONDecodeError as e:
+        print(f"Original error: {str(e)}")
+        print("WARNING: You might meet the overloading of API. To resolve this error, "
+              "please change IPs or wait for a period of time.")
+        raise
     judgements = [x['type'] for x in json_response["messages"]]
     error_messages = [x['message'] for x in json_response["messages"] if x['type'] == "error"]
     for error_message in error_messages:
