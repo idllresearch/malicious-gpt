@@ -33,7 +33,7 @@ We encode the QA pair's `response` into a 384-dimensional vector using [SBERT](h
 
 The processed data for the prediction is in the folder [`data`](./data).
 
-**The processed data for training is at [`data/training_data.zip`](https://github.com/idllresearch/malicious-gpt/blob/main/authorship/data/training_data.zip) or [Google Drive](https://drive.google.com/drive/folders/1ZhSL_6ze3tEfQ6QikoMil1zzwQgheWlx?usp=sharing). **
+**The processed data for training is at [`data/training_data.zip`](https://github.com/idllresearch/malicious-gpt/blob/main/authorship/data/training_data.zip) or [Google Drive](https://drive.google.com/drive/folders/1ZhSL_6ze3tEfQ6QikoMil1zzwQgheWlx?usp=sharing).**
 
 **Please unzip `data/training_data.zip` or download `textvec.json` and `codevec.json` from Google Drive. Then put `textvec.json` and `codevec.json` in the folder `data` before training or K-fold validation.**
 
