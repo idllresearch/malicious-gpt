@@ -260,7 +260,10 @@ python author.py
 
 ### Dataset
 
-Training set: https://drive.google.com/drive/folders/1ZhSL_6ze3tEfQ6QikoMil1zzwQgheWlx (Please place the training data into the **data** folder)
+Training set: You can use any way below to get the training data. 
+
+* https://github.com/idllresearch/malicious-gpt/blob/main/authorship/data/training_data.zip (Please unzip the file and place the training data into the **data** folder) 
+* https://drive.google.com/drive/folders/1ZhSL_6ze3tEfQ6QikoMil1zzwQgheWlx (Please place the training data into the **data** folder).
 
 Test set: https://github.com/idllresearch/malicious-gpt/tree/cdf8af3f68c3dbdfbcab8531274dfab6ed0c21c0/authorship. 
 
