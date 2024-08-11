@@ -76,7 +76,7 @@ Parameters in the `author.py`:
 ```python
 start_K_Fold_validation = False  # Decide whether to validate model performance by 5-fold validation (`True`: validate, `False`: not validate)
 start_authorship_identification = True  # Decide whether to predict backends of DarkGPT, FreedomGPT, EscapeGPT (`True`: predict, `False`: not predict)
-use_trained_model = True  # Decide whether to use pretrained model in prediction (`True`: use, `False`: not use)
+use_pretrained_model = True  # Decide whether to use pretrained model in prediction (`True`: use, `False`: not use)
 ```
 
 ## Citation
