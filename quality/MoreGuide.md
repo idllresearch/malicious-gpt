@@ -104,7 +104,7 @@ Please run the following script to obtain the summarized results.
 
 ```shell
 cd /home/malicious-gpt/quality/poe
-python poe_quality_evaluation.py
+python quality_evaluation.py
 ```
 
 
@@ -212,6 +212,6 @@ Please run the following script to obtain the summarized results.
 
 ```shell
 cd /home/malicious-gpt/quality/flowgpt
-python flowgpt_quality_evaluation.py
+python quality_evaluation.py
 ```
 
