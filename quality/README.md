@@ -107,7 +107,7 @@ Please run the following script to obtain the summarized results.
 
 ```shell
 cd ./malicious-gpt/quality/services
-python services_quality_evaluation.py
+python quality_evaluation.py
 ```
 
 
