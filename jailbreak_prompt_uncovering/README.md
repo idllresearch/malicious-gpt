@@ -2,7 +2,7 @@
 
 [![USENIX Security: paper](https://img.shields.io/badge/USENIX_Security-paper-maroon.svg)](https://www.usenix.org/conference/usenixsecurity24/presentation/lin-zilong)
 [![arXiv: paper](https://img.shields.io/badge/arXiv-paper-red.svg)](https://arxiv.org/abs/2401.03315)
-[![dataset: released](https://img.shields.io/badge/dataset-released-green.svg)](https://github.com/idllresearch/malicious-gpts/)
+[![dataset: released](https://img.shields.io/badge/dataset-released-blue.svg)](https://github.com/idllresearch/malicious-gpts/)
 [![license: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![ARTIFACT EVALUATION: AVAILABLE](https://img.shields.io/badge/ARTIFACT_EVALUATION-AVAILABLE-orange.svg)
