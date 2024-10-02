@@ -11,6 +11,7 @@
 
 ![](./badges.png)
 
+*Repo of collection, backend, and performance of 220 malicious LLM applications (e.g., WormGPT, FraudGPT, BLACKHATGPT, etc.)*
 
 ## Directory  
 
