@@ -335,6 +335,22 @@ In our repository, we provide four datasets.
 **[Malicious LLM topic keywords](https://github.com/idllresearch/malicious-gpt/blob/main/keywords/malla_services_topic_keywords.txt)**: Collection of 73 malicious LLM topic keywords. 
 
 
+## Media Coverage
+**Tech Policy Press** (Jan. 18, 2024) [Studying Underground Market for Large Language Models, Researchers Find OpenAI Models Power Malicious Services](https://www.techpolicy.press/studying-black-market-for-large-language-models-researchers-find-openai-models-power-malicious-services/)
+
+**Le Monde** (Feb. 22, 2024) [The dark side of AI: Chatbots developed by cyber criminals](https://www.lemonde.fr/en/science/article/2024/02/22/the-dark-side-of-ai-chatbots-developed-by-cyber-criminals_6550302_10.html)
+
+**The Wall Street Journal** (Feb. 28, 2024) [Welcome to the Era of BadGPTs](https://www.wsj.com/articles/welcome-to-the-era-of-badgpts-a104afa8)
+
+**安全内参-网络安全首席知识官** (Mar. 28, 2024) [重估现实中的恶意大模型服务](https://www.secrss.com/articles/64772)
+
+**AI Incident Database** (Jun. 27, 2024) [Underground Market for LLMs Powers Malware and Phishing Scams](https://incidentdatabase.ai/cite/736/)
+
+**Fast Company** (Sep. 05, 2024) [The underground world of black-market AI chatbots is thriving](https://www.fastcompany.com/91184474/black-market-ai-chatbots-thriving)
+
+**Cryptopolitan** (Sep. 05, 2024) [A new wave of black market chatbots emerges and thrives](https://www.cryptopolitan.com/a-new-wave-of-black-market-chatbots-emerges/)
+
+
 ## Citation
 
 If you find the above data and information are helpful for your research, please consider citing:
