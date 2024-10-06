@@ -39,6 +39,7 @@
   - [Malicious LLM application (Malla) list](https://github.com/idllresearch/malicious-gpt/tree/main/malicious_LLM_name_list): Collection of malicious LLM applications (Malla), in which 22 from underground, 125 from Poe.com, and 73 from FlowGPT.com.
   - [LLM-related keywords](https://github.com/idllresearch/malicious-gpt/blob/main/keywords/LLM_keywords.txt): Collection of 145 LLM-related keywords. 
   - [Malicious LLM topic keywords](https://github.com/idllresearch/malicious-gpt/blob/main/keywords/malla_services_topic_keywords.txt): Collection of 73 malicious LLM topic keywords.
+- Media Coverage
 
 
 ## Environments
@@ -336,6 +337,7 @@ In our repository, we provide four datasets.
 
 
 ## Media Coverage
+
 **Tech Policy Press** (Jan. 18, 2024) [Studying Underground Market for Large Language Models, Researchers Find OpenAI Models Power Malicious Services](https://www.techpolicy.press/studying-black-market-for-large-language-models-researchers-find-openai-models-power-malicious-services/)
 
 **Le Monde** (Feb. 22, 2024) [The dark side of AI: Chatbots developed by cyber criminals](https://www.lemonde.fr/en/science/article/2024/02/22/the-dark-side-of-ai-chatbots-developed-by-cyber-criminals_6550302_10.html)
