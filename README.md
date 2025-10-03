@@ -9,9 +9,8 @@
 ![ARTIFACT EVALUATION: FUNCTIONAL](https://img.shields.io/badge/ARTIFACT_EVALUATION-FUNCTIONAL-blue.svg)
 ![ARTIFACT EVALUATION: FUNCTIONAL](https://img.shields.io/badge/ARTIFACT_EVALUATION-FUNCTIONAL-purple.svg)
 
-![](./badges.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="./WormGPT-profile.jpg" height="75"/>
+![](./badges.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="./WormGPT-profile.jpg" height="73"/>
 
-<img src="./badges.png" height="80" style="margin-right:160px;"/> <img src="./WormGPT-profile.jpg" height="80"/>
 
 
 *Repo of collection, backend, and performance of 220 malicious LLM applications (e.g., WormGPT, FraudGPT, BLACKHATGPT, etc.)*
@@ -369,6 +368,7 @@ If you find the above data and information are helpful for your research, please
   publisher = {USENIX Association}
 }
 ```
+
 
 
 
