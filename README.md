@@ -9,9 +9,9 @@
 ![ARTIFACT EVALUATION: FUNCTIONAL](https://img.shields.io/badge/ARTIFACT_EVALUATION-FUNCTIONAL-blue.svg)
 ![ARTIFACT EVALUATION: FUNCTIONAL](https://img.shields.io/badge/ARTIFACT_EVALUATION-FUNCTIONAL-purple.svg)
 
-![](./badges.png)
 
-<img src="./WormGPT-profile.jpg" height="20"/>
+
+<img src="./WormGPT-profile.jpg" height="80"/>
 
 *Repo of collection, backend, and performance of 220 malicious LLM applications (e.g., WormGPT, FraudGPT, BLACKHATGPT, etc.)*
 
@@ -368,4 +368,5 @@ If you find the above data and information are helpful for your research, please
   publisher = {USENIX Association}
 }
 ```
+
 
