@@ -41,6 +41,8 @@
   - [Malicious LLM application (Malla) list](https://github.com/idllresearch/malicious-gpt/tree/main/malicious_LLM_name_list): Collection of malicious LLM applications (Malla), in which 22 from underground, 125 from Poe.com, and 73 from FlowGPT.com.
   - [LLM-related keywords](https://github.com/idllresearch/malicious-gpt/blob/main/keywords/LLM_keywords.txt): Collection of 145 LLM-related keywords. 
   - [Malicious LLM topic keywords](https://github.com/idllresearch/malicious-gpt/blob/main/keywords/malla_services_topic_keywords.txt): Collection of 73 malicious LLM topic keywords.
+  - [Running screenshots of Mallas](https://github.com/idllresearch/malicious-gpt/blob/main/screenshots_and_ads/running_screenshot): Screenshot collection of running 7 malicious LLM applications.
+  - [Promotion materials used in Malla ads](https://github.com/idllresearch/malicious-gpt/blob/main/screenshots_and_ads/ad): Collection of 4 GIF and 3 posters used in the advertisements of malicious LLM applications.
 - Media Coverage
 
 
@@ -368,6 +370,7 @@ If you find the above data and information are helpful for your research, please
   publisher = {USENIX Association}
 }
 ```
+
 
 
 
