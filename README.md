@@ -11,6 +11,8 @@
 
 ![](./badges.png)
 
+<img src="./WormGPT-profile.jpg" height="20"/>
+
 *Repo of collection, backend, and performance of 220 malicious LLM applications (e.g., WormGPT, FraudGPT, BLACKHATGPT, etc.)*
 
 ## Directory  
@@ -366,3 +368,4 @@ If you find the above data and information are helpful for your research, please
   publisher = {USENIX Association}
 }
 ```
+
