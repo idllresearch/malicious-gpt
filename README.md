@@ -9,7 +9,7 @@
 ![ARTIFACT EVALUATION: FUNCTIONAL](https://img.shields.io/badge/ARTIFACT_EVALUATION-FUNCTIONAL-blue.svg)
 ![ARTIFACT EVALUATION: FUNCTIONAL](https://img.shields.io/badge/ARTIFACT_EVALUATION-FUNCTIONAL-purple.svg)
 
-![](./badges.png) <img src="./WormGPT-profile.jpg" height="80"/>
+<img src="./WormGPT-profile.jpg" height="80"/> ![](./badges.png) 
 
 <img src="./badges.png" height="80" style="margin-right:160px;"/> <img src="./WormGPT-profile.jpg" height="80"/>
 
@@ -369,6 +369,7 @@ If you find the above data and information are helpful for your research, please
   publisher = {USENIX Association}
 }
 ```
+
 
 
 
